@@ -7,3 +7,10 @@ client = owlantispam.Client(token)
 ban = client.get_ban(777000)
 print(ban.reason)
 ```
+
+# Installation
+
+`pip install ./owlantispam`
+
+
+Or add `./owlantispam` in the `requirements.txt`
