@@ -8,9 +8,9 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='spamwatch',
+    name='owlantispam',
     version='0.3.0',
-    description='SpamWatch API Wrapper',
+    description='OwlAntiSpam API Wrapper',
     long_description=long_description,
     long_description_content_type="text/markdown",
     license='License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',

@@ -10,9 +10,9 @@ from .types import Ban, Permission, Token
 
 
 class Client:
-    """Client to interface with the SpamWatch API."""
+    """Client to interface with the OwlAntiSpam API."""
 
-    def __init__(self, token: str, *, host: str = 'https://api.spamwat.ch') -> None:
+    def __init__(self, token: str, *, host: str = 'https://spamapi.bolverblitz.net/') -> None:
         """
         Args:
             token: The Authorization Token

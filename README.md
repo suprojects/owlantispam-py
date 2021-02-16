@@ -1,9 +1,9 @@
-# SpamWatch API Python Wrapper
+# OwlAntiSpam API Python Wrapper
 # Basic Usage
 ```python
-import spamwatch
+import owlantispam
 token = 'A_LONG_TOKEN_HERE'
-client = spamwatch.Client(token)
+client = owlantispam.Client(token)
 ban = client.get_ban(777000)
 print(ban.reason)
 ```
